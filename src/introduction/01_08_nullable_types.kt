@@ -1,12 +1,14 @@
+package introduction
+
 //Read about null safety and safe calls in Kotlin and rewrite the following Java code using only one if expression:
-//public void sendMessageToClient(
-//    @Nullable Client client,
+//public void introduction.sendMessageToClient(
+//    @Nullable introduction.Client client,
 //    @Nullable String message,
-//    @NotNull Mailer mailer
+//    @NotNull introduction.Mailer mailer
 //) {
 //    if (client == null || message == null) return;
 //
-//    PersonalInfo personalInfo = client.getPersonalInfo();
+//    introduction.PersonalInfo personalInfo = client.getPersonalInfo();
 //    if (personalInfo == null) return;
 //
 //    String email = personalInfo.getEmail();

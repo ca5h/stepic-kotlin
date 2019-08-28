@@ -1,6 +1,22 @@
-# Compiled class file
-*.class
-
+syntax: glob
+.idea
+*.iws
+*.iml
+*.ipr
+.gradle/
+/gradle/
+/connector/outbound/target
+/*/gradle/
+/target/
+/**/target/
+/build/
+/*/build/
+*.iml
+\.orig\..*$
+\.orig$
+\.chg\..*$
+\.rej$
+\.conflict\~$
 # Log file
 *.log
 

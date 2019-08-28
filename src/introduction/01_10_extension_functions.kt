@@ -1,3 +1,5 @@
+package introduction
+
 fun Int.r(): RationalNumber = RationalNumber(this, 1)
 fun Pair<Int, Int>.r(): RationalNumber = RationalNumber(first, second)
 

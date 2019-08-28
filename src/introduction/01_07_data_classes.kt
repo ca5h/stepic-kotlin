@@ -1,9 +1,11 @@
+package introduction
+
 //Rewrite the following Java code to Kotlin:
-//public class Person {
+//public class introduction.Person {
 //    private final String name;
 //    private final int age;
 //
-//    public Person(String name, int age) {
+//    public introduction.Person(String name, int age) {
 //        this.name = name;
 //        this.age = age;
 //    }
